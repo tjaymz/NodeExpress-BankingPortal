@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="c508c4a0-9929-43d0-af99-ce6ad7b47784" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/account.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/account.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/payment.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/payment.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/summary.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/summary.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/transfer.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/transfer.ejs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,12 +36,12 @@
             <entry file="file://$PROJECT_DIR$/src/app.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="345">
-                  <caret line="17" selection-start-line="17" selection-end-line="17" />
+                  <caret line="18" selection-start-line="18" selection-end-line="18" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/data.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="414">
@@ -46,19 +51,46 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/views/transfer.ejs">
+            <entry file="file://$PROJECT_DIR$/src/routes/accounts.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="368">
-                  <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+                <state>
+                  <caret selection-end-line="2" selection-end-column="40" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/views/account.ejs">
+            <entry file="file://$PROJECT_DIR$/src/routes/services.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="46">
+                  <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/views/transfer.ejs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="644">
+                  <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/views/payment.ejs">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="230">
-                  <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+                  <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/views/account.ejs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="92">
+                  <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
@@ -75,8 +107,17 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/views/index.ejs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="207">
-                  <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+                <state relative-caret-position="322">
+                  <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/views/summary.ejs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="322">
+                  <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
@@ -88,8 +129,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="996">
-                  <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+                <state relative-caret-position="552">
+                  <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
                 </state>
               </provider>
             </entry>
@@ -109,12 +150,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/views/index.ejs" />
         <option value="$PROJECT_DIR$/src/views/profile.ejs" />
-        <option value="$PROJECT_DIR$/src/views/account.ejs" />
-        <option value="$PROJECT_DIR$/src/views/transfer.ejs" />
         <option value="$PROJECT_DIR$/src/data.js" />
+        <option value="$PROJECT_DIR$/src/routes/accounts.js" />
+        <option value="$PROJECT_DIR$/src/routes/services.js" />
         <option value="$PROJECT_DIR$/src/app.js" />
+        <option value="$PROJECT_DIR$/src/views/index.ejs" />
+        <option value="$PROJECT_DIR$/src/views/summary.ejs" />
+        <option value="$PROJECT_DIR$/src/views/transfer.ejs" />
+        <option value="$PROJECT_DIR$/src/views/payment.ejs" />
+        <option value="$PROJECT_DIR$/src/views/account.ejs" />
       </list>
     </option>
   </component>
@@ -169,6 +214,12 @@
               <item name="NodeExpress-BankingPortal" type="b2602c69:ProjectViewProjectNode" />
               <item name="NodeExpress-BankingPortal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NodeExpress-BankingPortal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NodeExpress-BankingPortal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -210,12 +261,12 @@
       <option name="presentableId" value="Default" />
       <updated>1552656938994</updated>
       <workItem from="1552656940427" duration="1312000" />
-      <workItem from="1554898397551" duration="4250000" />
+      <workItem from="1554898397551" duration="5077000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5562000" />
+    <option name="totallyTimeSpent" value="6389000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3008" y="23" width="2098" height="1669" extended-state="0" />
@@ -254,18 +305,23 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/test/globals.js</url>
+          <line>65</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="713">
           <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -276,20 +332,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/account.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/transfer.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/data.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -297,10 +339,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/accounts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/globals.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1157">
+          <caret line="104" column="9" lean-forward="true" selection-start-line="104" selection-start-column="9" selection-end-line="104" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="996">
-          <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+        <state relative-caret-position="345">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/summary.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/transfer.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/payment.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/account.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
         </state>
       </provider>
     </entry>
